@@ -25,17 +25,22 @@
     "body-parser": "^1.15.0",
     "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
+    "express-validation": "^0.5.0",
     "glob": "^7.0.0",
+    "http-status": "^0.2.0",
     "jade": "^1.11.0",
+    "joi": "^8.0.3",
     "lodash": "^4.5.1",
     "mongoose": "^4.4.5",
     "morgan": "^1.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
+    "chai": "^3.5.0",
     "eslint-plugin-react": "^4.1.0",
     "mocha": "^2.4.5",
     "nodemon": "^1.9.1",
-    "supertest": "^1.2.0"
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.0.0"
   }
 }

@@ -11,6 +11,7 @@ import { allowCrossDomain } from "./middlewares/crossDomain"
 import { router as homeRouter } from "./modules/home/home_router"
 import { router as apiRouter } from "./modules/api/api_router"
 import { router as driverRouter } from "./modules/driver/driver_router"
+import { router as userRouter } from "./modules/user/user_router"
 
 Promise.promisifyAll(mongoose)
 
@@ -44,7 +45,8 @@ app.use(cookieParser())
 app.use("/home", homeRouter)
 app.use("/api", apiRouter)
 app.use("/driver", driverRouter)
-//app.use("/home", homeRouter)
+app.use('/api/users', userRouter)
+
 
 // Catch any other routes and send a 404
 app.all("*", (req, res) => {
