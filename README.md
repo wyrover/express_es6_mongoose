@@ -44,3 +44,13 @@ app.js
 
 
 [![JSON-handle](https://lh3.googleusercontent.com/Ke0WpQyBQXxG1ljONTEZKX7WC0__XbVoTayyZobPV5ExzglyC4A6S3OLZE6rxsR8XEiCmlOy4w=s640-h400-e365-rw)](https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj)
+
+
+## es6 编码规范
+
+-  [es6 编码规范](https://github.com/airbnb/javascript)
+
+
+## other
+
+-  [KunalKapadia/express-mongoose-es6-rest-api](https://github.com/KunalKapadia/express-mongoose-es6-rest-api)
