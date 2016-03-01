@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <p>请输入hwid</p>
+        <p>示例:
+          <pre>
+          pci\\ven_1002&dev_4370&subsys_537511D4
+          pci\\ven_8086&dev_24D5&subsys_01611462
+          </pre>
+        </p>
+        <form method="post" action="/driver/search">
+            <input type="text" name="hwid" style="width:1000px" />
+            <input type="submit" value="OK" />
+        </form>
+    </body>
+</html>
